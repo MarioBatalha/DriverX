@@ -1,21 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
+import Login from './src/pages/Login';
+import Driver from './src/pages/User/driver.tsx';
+import Passenger from './src/pages/User/passenger.tsx';
+import Type from './src/pages/User/type.tsx';
+import Ride from './src/pages/Ride';
+import Home from './src/pages/Home';
 
-export default function App() {
+
+const App = () =>  {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View >
+      <Home />
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;

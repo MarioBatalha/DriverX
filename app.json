@@ -4,10 +4,8 @@
     "slug": "driverX",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+       "splash": {
+        "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -17,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.company.vambazar",
+      "config": {
+        "googleMapsApiKey": "AIzaSyC4gIWKxzFlL3RlqDoRvkGkECf-kwQl7nU"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+          "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC4gIWKxzFlL3RlqDoRvkGkECf-kwQl7nU"
+        }
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      
     }
   }
 }
