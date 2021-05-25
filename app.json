@@ -6,7 +6,8 @@
     "orientation": "portrait",
        "splash": {
         "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "backgroundColorPrimary": "#FFA800"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
